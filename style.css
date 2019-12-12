@@ -32,19 +32,19 @@ ul {
 .contact a:link {
     font-weight: bold;
     text-decoration: none;
-    color: #7d7d7d;
+    color: #595959;
 }
 
 .contact a:visited {
     font-weight: bold;
     text-decoration: none;
-    color: #7d7d7d;
+    color: #595959;
 }
 
 .contact a:hover,
 a:active {
     text-decoration: none;
-    color: #7d7d7d;
+    color: green;
     display: inline;
     margin-right: 1.3em;
     margin-left: 1.3em;
@@ -98,6 +98,8 @@ img {
     width: auto;
     max-width: 100%;
     height: auto;
+    image-rendering: auto;
+    /*height: 300px;*/
 }
 
 .caption {
@@ -140,5 +142,10 @@ p h2 {
         letter-spacing: -2px;
         display: inline;
         margin: 10px;
+    }
+    img {
+        /*image-rendering: pixelated;*/
+        image-rendering: crisp-edges;
+        height: 300px;
     }
 }
